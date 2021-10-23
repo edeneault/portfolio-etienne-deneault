@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "title": "Impresso Espresso",
+    "category": "Web Applications",
+    "description": "StoreFront/eCommerce application for business to deliver brand identity and to sell products to retail consumers. Built in a way that is flexible/reusable.",
+    "previewImages": [
+      "impresso-espresso.png",
+      "impresso-espresso-product.png",
+      "impresso-espresso-cart.png"
+    ],
+    "meta": {
+      "client": "SpringBoard Capstone",
+      "date": "10/15/2021",
+      "website": "https://impresso-espresso-app.herokuapp.com/",
+      "services": [
+        "Web Development",
+        "Full Stack"
+      ],
+      "github": "https://github.com/edeneault/SB-Capstone-2"
+     
+    }
+  },
+  {
+    "id": 2,
+    "title": "Gym Hero",
+    "category": "Design",
+    "description": "Lightweight athlete management demo web app  •  Simple application to manage athletes and teams   •   Low barrier of accessibility  •  Focus on ease of use.",
+    "previewImages": [
+      "portfolio-1.jpg",
+      "portfolio-2.jpg"
+    ],
+    "meta": {
+      "client": "Jerry Wilson",
+      "date": "01/05/2020",
+      "website": "https://sb-gym-hero.herokuapp.com/",
+      "services": [
+        "Design",
+        "Branding",
+        "Web",
+        "Photography"
+      ],
+      "github": "https://github.com/edeneault/SpringBoard-Capstone-1"
+    }
+  },
+  {
+    "id": 3,
+    "title": "Gym Hero",
+    "category": "Design",
+    "description": "Lightweight athlete management demo web app  •  Simple application to manage athletes and teams   •   Low barrier of accessibility  •  Focus on ease of use.",
+    "previewImages": [
+      "portfolio-1.jpg",
+      "portfolio-2.jpg"
+    ],
+    "meta": {
+      "client": "Jerry Wilson",
+      "date": "01/05/2020",
+      "website": "https://sb-gym-hero.herokuapp.com/",
+      "services": [
+        "Design",
+        "Branding",
+        "Web",
+        "Photography"
+      ],
+      "github": "https://github.com/edeneault/SpringBoard-Capstone-1"
+    }
+  },
+  {
+    "id": 4,
+    "title": "Gym Hero",
+    "category": "Design",
+    "description": "Lightweight athlete management demo web app  •  Simple application to manage athletes and teams   •   Low barrier of accessibility  •  Focus on ease of use.",
+    "previewImages": [
+      "portfolio-1.jpg",
+      "portfolio-2.jpg"
+    ],
+    "meta": {
+      "client": "Jerry Wilson",
+      "date": "01/05/2020",
+      "website": "https://sb-gym-hero.herokuapp.com/",
+      "services": [
+        "Design",
+        "Branding",
+        "Web",
+        "Photography"
+      ],
+      "github": "https://github.com/edeneault/SpringBoard-Capstone-1"
+    }
+  }
+]

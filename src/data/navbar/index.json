@@ -1,0 +1,94 @@
+[
+  {
+    "id": 1,
+    "title": "Home",
+    "link": "/home-personal-portfolio",
+    "megaMenu": false,
+    "subMenu": false
+  },
+  {
+    "id": 2,
+    "title": "About Me",
+    "link": "/about",
+    "megaMenu": false,
+    "subMenu": false
+  },
+  {
+    "id": 3,
+    "title": "Portfolio",
+    "link": "/portfolio-grid-three-column",
+    "megaMenu": false,
+    "subMenu": false
+  },
+  {
+    "id": 4,
+    "title": "Pages",
+    "link": "/service",
+    "megaMenu": false,
+    "subMenu": [
+      {
+        "id": 4.1,
+        "title": "Service",
+        "link": "/service"
+      },
+      {
+        "id": 4.2,
+        "title": "Team",
+        "link": "/team"
+      },
+      {
+        "id": 4.3,
+        "title": "Contact",
+        "link": "/contact"
+      },
+      {
+        "id": 4.4,
+        "title": "404 Error",
+        "link": "/raju"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Blog",
+    "link": "/blog",
+    "megaMenu": false,
+    "subMenu": [
+      {
+        "id": 5.1,
+        "title": "Blog Three Column",
+        "link": "/blog"
+      },
+      {
+        "id": 5.2,
+        "title": "Blog Two Column Left Sidebar",
+        "link": "/blog-two-column-left-sidebar"
+      },
+      {
+        "id": 5.3,
+        "title": "Blog Two Column Right Sidebar",
+        "link": "/blog-two-column-right-sidebar"
+      },
+      {
+        "id": 5.4,
+        "title": "Blog Details Left Sidebar",
+        "link": "/blog-details-left-sidebar"
+      },
+      {
+        "id": 5.5,
+        "title": "Blog Details Right Sidebar",
+        "link": "/blog-details"
+      },
+      {
+        "id": 5.6,
+        "title": "Blog Details Without Sidebar",
+        "link": "/blog-details-without-sidebar"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Contact",
+    "link": "/contact"
+  }
+]

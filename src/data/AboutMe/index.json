@@ -1,0 +1,32 @@
+{
+  "thumb": "Etienne-Deneault-Headshot_g0gikz.jpg",
+  "bio": "I am a Software Engineer with experience in building web applications and providing product-based solutions that are well-planned and deliver performant applications for all of the stakeholders. I thrive when working in teams that are motivated and are passionate about delivering the best possible product.",
+  "skype": "edeneault",
+  "availability": true,
+  "languages": [
+    "English",
+   "French"
+  ],
+  "skills": [
+    {
+      "id": 1,
+      "title": "Full Stack",
+      "percentage": 80
+    },
+    {
+      "id": 2,
+      "title": "Frontend",
+      "percentage": 50
+    },
+    {
+      "id": 3,
+      "title": "Web backend",
+      "percentage": 50
+    },
+    {
+      "id": 3,
+      "title": "Dev Ops",
+      "percentage": 30
+    }
+  ]
+}
