@@ -140,18 +140,12 @@ const App = () => {
             path={`${process.env.PUBLIC_URL + "/portfolio-grid-four-column"}`}
             component={PortfolioGridFourColumnPage}
           />
-          <Route
-            path={`${process.env.PUBLIC_URL + "/portfolio-grid-three-column"}`}
-            component={PortfolioGridThreeColumnPage}
-          />
+
           <Route
             path={`${process.env.PUBLIC_URL + "/portfolio-grid-two-column"}`}
             component={PortfolioGridTwoColumnPage}
           />
-          <Route
-            path={`${process.env.PUBLIC_URL + "/about"}`}
-            component={AboutPage}
-          />
+
           <Route
             path={`${process.env.PUBLIC_URL + "/home-freelancer-portfolio"}`}
             component={HomeFreelancerPortfolio}
@@ -164,7 +158,7 @@ const App = () => {
             path={`${process.env.PUBLIC_URL + "/home-blog"}`}
             component={HomeBlog}
           />
-          <Route
+          {/* <Route
             path={`${process.env.PUBLIC_URL + "/home-five-column"}`}
             component={HomeFiveColumn}
           />
@@ -175,15 +169,21 @@ const App = () => {
           <Route
             path={`${process.env.PUBLIC_URL + "/home-three-column"}`}
             component={HomeThreeColumn}
+          /> */}
+          <Route
+            path={`${process.env.PUBLIC_URL + "/about"}`}
+            component={AboutPage}
+          />
+          <Route
+            path={`${
+              process.env.PUBLIC_URL + "/portfolio-grid-three-column"
+            }/:id?`}
+            component={PortfolioGridThreeColumnPage}
           />
           <Route
             path={`${process.env.PUBLIC_URL + "/portfolio-details"}/:id?`}
             component={PortfolioDetailsPage}
           />
-          {/* <Route
-            path={`${process.env.PUBLIC_URL + "/portfolio-details"}/:id`}
-            component={PortfolioDetailsPage}
-          /> */}
           <Route
             path={`${process.env.PUBLIC_URL + "/home-default"}`}
             component={HomePersonalPortfolio}

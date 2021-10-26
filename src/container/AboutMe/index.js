@@ -9,15 +9,15 @@ const AboutMe = ({ type }) => {
   return (
     <div className={type !== "page" ? "section-padding section" : null}>
       <Container>
-        <Row className={"align-items-center"}>
-          <Col lg={6}>
+        <Row className={""}>
+          <Col lg={4}>
             <Thumbnail
-              classes={"about-thumbnail mb-md-30 mb-sm-30 mb-xs-30"}
+              classes={"about-image mb-md-30 mb-sm-30 mb-xs-30"}
               thumb={`about/${aboutData.thumb}`}
             />
           </Col>
 
-          <Col lg={6}>
+          <Col lg={8}>
             <Content classes={"about-content"}>
               {type !== "page" ? (
                 <h3 className='block-title'>ABOUT ME</h3>
@@ -59,7 +59,21 @@ const AboutMe = ({ type }) => {
               </div>
             </Content>
           </Col>
+          <Col
+            md={12}
+            className='pt-5'
+            style={{
+              height: "500px",
+              border: "1px solid black",
+              marginTop: "2rem",
+            }}
+          >
+            {" "}
+          </Col>
         </Row>
+        {/* <Row>
+          <Col> </Col>
+        </Row> */}
       </Container>
     </div>
   );

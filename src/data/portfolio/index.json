@@ -15,12 +15,30 @@
     "id": 3,
     "title": "Forex Curency Converter",
     "category": "Web Application",
-    "thumb": "portfolio/forex-converter.png"
+    "thumb": "portfolio/forex-converter.jpeg"
   },
   {
     "id": 4,
     "title": "Connect4 Game",
     "category": "Game App",
     "thumb": "portfolio/connect4.png"
+  },
+  {
+    "id": 5,
+    "title": "Smart Garden",
+    "category": "Hardware and Software Builds",
+    "thumb": "portfolio/smart-garden.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Mavel Themed Memory Game",
+    "category": "Game App",
+    "thumb": "portfolio/marvel-memory.png"
+  },
+  {
+    "id": 7,
+    "title": "Jeapordy Triva Game",
+    "category": "Game App",
+    "thumb": "portfolio/jeapordy.jpeg"
   }
 ]

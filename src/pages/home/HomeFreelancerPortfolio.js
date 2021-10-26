@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 // File imported
 import Header from "../../components/header/HeaderOne";
@@ -12,19 +12,19 @@ import Contact from "../../container/contact";
 import Footer from "../../components/footer/FooterThree";
 
 const HomeFreelancerPortfolio = () => {
-    return (
-        <div className={'main-wrapper p-0'}>
-            <Header classes={'position-static'}/>
-            <SideHeader mobile={true}/>
-            <BannerFreelancerPortfolio/>
-            <AboutMe/>
-            <PersonalPortfolio/>
-            <PersonalPortfolioService/>
-            <PersonalPortfolioTeam/>
-            <Contact/>
-            <Footer position={'static'}/>
-        </div>
-    );
+  return (
+    <div className={"main-wrapper "}>
+      <Header classes={"position-static"} />
+      <SideHeader mobile={true} />
+      <BannerFreelancerPortfolio />
+      <AboutMe />
+      <PersonalPortfolio />
+      <PersonalPortfolioService />
+      <PersonalPortfolioTeam />
+      <Contact />
+      <Footer position={"static"} />
+    </div>
+  );
 };
 
 export default HomeFreelancerPortfolio;
